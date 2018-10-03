@@ -1,12 +1,6 @@
 #!/bin/bash
-
-echo
-echo
-echo
-echo
-echo
-echo
-figlet -c "!!!Augen Pause!!!"
+figlet -c "!!!Pause für die Augen!!!"
 sleep 120s 
+clear
 figlet "Pause zuende"
 exit 0

@@ -2,8 +2,7 @@
 
 while  [ 1!=0 ] 
 do
- echo $SECONDS
- if (( $SECONDS > 2)); then
+ if (( $SECONDS > 1200)); then
   xterm -fullscreen -e ./new_term.sh
   SECONDS=0
  fi
