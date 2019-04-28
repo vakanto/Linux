@@ -1,0 +1,82 @@
+.py 1;93
+.sh 38;5;1
+DIR 1;97;42
+EXEC 5;91
+
+SETUID 48;5;160;38;5;230 # file that is setuid (u+s)
+SETGID 48;5;136;38;5;230 # file that is setgid (g+s)
+CAPABILITY 30;41 # file with capability
+STICKY_OTHER_WRITABLE 48;5;64;38;5;230 # dir that is sticky and other-writable (+t,o+w)
+OTHER_WRITABLE 48;5;235;38;5;33 # dir that is other-writable (o+w) and not sticky
+STICKY 48;5;33;38;5;230 # dir with the sticky bit set (+t) and not other-writable
+
+# Files of special interest (base1)
+.txt             00;38;5;245
+.tex             00;38;5;245
+.rdf             00;38;5;245
+.owl             00;38;5;245
+.n3              00;38;5;245
+.ttl             00;38;5;245
+.nt              00;38;5;245
+.torrent         00;38;5;245
+.xml             00;38;5;245
+*Makefile        00;38;5;245
+*Rakefile        00;38;5;245
+*Dockerfile      00;38;5;245
+*build.xml       00;38;5;245
+*rc              00;38;5;245
+*1               00;38;5;245
+.nfo             00;38;5;245
+*README          00;38;5;245
+*README.txt      00;38;5;245
+*readme.txt      00;38;5;245
+.md              00;38;5;245
+*README.markdown 00;38;5;245
+.ini             00;38;5;245
+.yml             00;38;5;245
+.cfg             00;38;5;245
+.conf            00;38;5;245
+.h               00;38;5;245
+.hpp             00;38;5;245
+.c               00;38;5;245
+.cpp             00;38;5;245
+.cxx             00;38;5;245
+.cc              00;38;5;245
+.objc            00;38;5;245
+.sqlite          00;38;5;245
+.go              00;38;5;245
+.sql             00;38;5;245
+.csv             00;38;5;245
+
+## Archives or compressed (violet + bold for compression)
+.tar    00;38;5;61
+.tgz    00;38;5;61
+.arj    00;38;5;61
+.taz    00;38;5;61
+.lzh    00;38;5;61
+.lzma   00;38;5;61
+.tlz    00;38;5;61
+.txz    00;38;5;61
+.zip    00;38;5;61
+.z      00;38;5;61
+.Z      00;38;5;61
+.dz     00;38;5;61
+.gz     00;38;5;61
+.lz     00;38;5;61
+.xz     00;38;5;61
+.bz2    00;38;5;61
+.bz     00;38;5;61
+.tbz    00;38;5;61
+.tbz2   00;38;5;61
+.tz     00;38;5;61
+.deb    00;38;5;61
+.rpm    00;38;5;61
+.jar    00;38;5;61
+.rar    00;38;5;61
+.ace    00;38;5;61
+.zoo    00;38;5;61
+.cpio   00;38;5;61
+.7z     00;38;5;61
+.rz     00;38;5;61
+.apk    00;38;5;61
+.gem 00;38;5;61<Paste>

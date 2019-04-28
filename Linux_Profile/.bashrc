@@ -73,7 +73,7 @@ function parse_git_branch() {
 	fi
 }
 
-export PS1="[\[\e[33m\]\u\[\e[m\]@\[\e[32m\]\H\[\e[m\]]:[\[\e[30;44m\]\t\[\e[m\]]:[\w]:\[\e[34;46m\]\`parse_git_branch\`\[\e[m\]:\[\e[31m\]\\$\[\e[m\] "
+export PS1="\[\e[32m\][\[\e[37m\]\u\[\e[m\]@\[\e[32m\]\H\[\e[m\]\[\e[32m\]]:[\[\e[37;44m\]\t\[\e[m\]] >> [\w]:\[\e[34;46m\]\`parse_git_branch\`\[\e[m\]:\[\e[33m\]\\$\[\e[m\] \n"
 
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
@@ -93,7 +93,7 @@ esac
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color'
-    LS_COLORS='di=1;92;42:*.sh=1;5;31:*.py=1;5;93'
+    #LS_COLORS='di=1;92;42:*.sh=1;5;31:*.py=1;5;93'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
 
